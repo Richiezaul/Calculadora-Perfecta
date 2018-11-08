@@ -1,0 +1,100 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	font-family:sans-serif;
+}
+
+#titulo{
+	position:relative;
+	width:300px;
+	height:60px;
+	text-align:center;
+	line-height:60px;
+	background:blue;
+	color:white;
+	font-weight:bold;
+	border:5px solid #ccc;
+	border-radius:20px;	
+	margin: auto;
+}
+
+#calculadora{	
+	position:relative;
+	margin:20px auto;
+	width:300px;
+	height:500px;
+	border:1px solid #aaa;
+	border-radius:20px;
+	background:#00a8ff;	
+}
+
+#operaciones{
+	position:relative;
+	margin:20px auto;
+	width:70%;
+	background:#7f8fa6;
+	border:1px solid #ccc;
+	border-radius:10px;
+	box-shadow:5px 5px 10px #999;
+	padding:10%;
+	text-align:right;
+	font-size:25px;
+	overflow:hidden;
+}
+
+#calculadora ul {
+	margin:10px;
+}
+
+#calculadora ul li{
+	float:left;
+	padding:20px;
+	width:10px;
+	text-align:center;
+	margin:8px;
+	margin-right: 10px;
+	background:#f5f6fa;
+	border:1px solid #aaa;
+	border-radius:5px;
+	box-shadow:5px 5px 10px #999;
+	font-weight:bold;
+	cursor:pointer;	
+}
+
+#calculadora ul li:hover{
+	background:cyan;
+	color:white;
+}
+
+#calculadora ul li:active{
+	background:magenta;
+	color:white;
+}
+
+#borrar{
+	position:absolute;
+	bottom:10px;
+	padding: 5px 15px;
+	width:60px;
+	background:#e84118;
+	border-radius:10px;
+	left: 100px;
+	border:5px solid #bbb;
+	color:white;
+	cursor:pointer;
+	text-align: center;
+	margin-right: 20px;
+}
+
+#borrar:hover{
+	background:purple;
+}
+	
+	
+#borrar:active{
+	background:cyan;
+}
+
+
